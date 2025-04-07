@@ -316,7 +316,7 @@ local Button = encTab:CreateButton({
    end
    end,
 })
-local Button2 = teleTab:CreateButton({
+local Button2 = encTab:CreateButton({
    Name = "Phù Phép",
    Callback = function()
    local Car = workspace.Vehicles.Tarius
