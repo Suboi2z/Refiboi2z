@@ -350,7 +350,7 @@ local Button2 = encTab:CreateButton({
    end
    wait(2)
    teleportCar(CFrame.new(1865.24731, 7.47261429, -88.8948746, 0.368724018, -0.101646155, 0.92396462, 7.59493179e-09, 0.994003177, 0.109351151, -0.929538906, -0.040320389, 0.366512865))
-   wait(0.5)
+   wait(1)
    teleportCar(CFrame.new(1118.55054, -252.9198, 41.9441757, -0.924281418, -0.00230779173, 0.381704807, 1.42315821e-06, 0.999981701, 0.00604934711, -0.381711781, 0.00559184235, -0.924264491))
    end,
 })
@@ -361,7 +361,7 @@ local Button3 = encTab:CreateButton({
    function teleportCar(cframe)
    Car:SetPrimaryPartCFrame(cframe)
    end
-   teleportCar(CFrame.new(1002.75018, -194.411896, 462.951202, -0.954879165, -0.0347592309, 0.294953436, 2.18827336e-06, 0.99312675, 0.117043599, -0.296994507, 0.111763142, -0.948316038))
+   teleportCar(CFrame.new(591.523438, -296.354828, 786.119873, -0.997998297, -0.00446440792, 0.0630829856, 1.22553445e-07, 0.997505009, 0.0705957711, -0.0632407591, 0.0704544634, -0.995508313))
    end,
 })
 local Button4 = encTab:CreateButton({
@@ -430,10 +430,10 @@ local Slider1 = tienTab:CreateSlider({
 local Section2 = tienTab:CreateSection("Siêu Nhân")
 local Slider = tienTab:CreateSlider({
    Name = "Chạy",
-   Range = {30, 100},
+   Range = {20, 100},
    Increment = 10,
    Suffix = "Tốc Độ",
-   CurrentValue = 30,
+   CurrentValue = 20,
    Flag = "Slider1",
    Callback = function(v)
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
