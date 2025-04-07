@@ -319,7 +319,7 @@ local Button = encTab:CreateButton({
 local Button2 = encTab:CreateButton({
    Name = "Phù Phép",
    Callback = function()
-   local Car = workspace.Vehicles.Tarius
+   local Car = workspace.Vehicles.Trailblazer
    function teleportCar(cframe)
    Car:SetPrimaryPartCFrame(cframe)
    end
