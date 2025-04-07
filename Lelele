@@ -1,0 +1,453 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Đào 2",
+   Icon = 0,
+   LoadingTitle = "Refinery cave 2",
+   LoadingSubtitle = "by Suboi2z",
+   Theme = "Default",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil,
+      FileName = "Refinery cave 2"
+   },
+
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+
+   KeySystem = false,
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Hello"}
+   }
+})
+local teleTab = Window:CreateTab("Dịch Chuyển")
+local Section = teleTab:CreateSection("Người")
+local Button1 = teleTab:CreateButton({
+   Name = "Nhà",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1551.74292, 39.596447, -587.532288, 0.498626143, 0.10473977, -0.860465884, 2.90420621e-06, 0.992672682, 0.120834261, 0.866817117, -0.0602536201, 0.494972259)
+   end,
+})
+local Button2 = teleTab:CreateButton({
+   Name = "Bán",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(939.050842, 38.4404182, -700.363708, 0.419345796, -0.0940414518, 0.902942598, 8.09352585e-08, 0.994620144, 0.103589624, -0.907826602, -0.0434397981, 0.41708976)
+   end,
+})
+local Button3 = teleTab:CreateButton({
+   Name = "Đá Mây",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5516.27979, 42.4378242, -1655.94629, 0.78779757, -0.0898328349, 0.609348059, -1.34563033e-05, 0.989304483, 0.145865113, -0.615934253, -0.114920385, 0.779370487)
+   wait()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7250.76416, 801.698547, -3253.07202, -0.994962096, 0.0222860407, -0.097743459, 1.14560532e-06, 0.974980772, 0.222289249, 0.100251943, 0.221169263, -0.970068932)
+   end,
+})
+local Button4 = teleTab:CreateButton({
+   Name = "Hồ Crystal",
+   Callback = function()
+   for i = 1, 10, 1 do
+   wait()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5516.27979, 42.4378242, -1655.94629, 0.78779757, -0.0898328349, 0.609348059, -1.34563033e-05, 0.989304483, 0.145865113, -0.615934253, -0.114920385, 0.779370487)
+   end
+   wait(2)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5519.27539, 20.8284779, -1883.38513, 0.876398683, 0.00387270399, -0.481570721, 3.81920427e-06, 0.999967635, 0.00804850738, 0.481586307, -0.00705554057, 0.876370251)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6617.30566, -468.15097, -1518.82776, -0.995751143, 0.0022036077, 0.0920586213, 1.9499991e-08, 0.999713659, -0.0239299405, -0.092084989, -0.0238282643, -0.995465994)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6610.78906, -569.006165, 724.824524, -0.999282837, -0.00117745064, 0.037847247, 2.07598685e-08, 0.999516428, 0.0310961045, -0.0378655568, 0.0310738049, -0.998799562)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7304.43164, -616.993774, 953.149292, -0.998999476, -0.00463578105, 0.0444815718, 1.97611278e-08, 0.994613111, 0.103657044, -0.0447224863, 0.103553332, -0.993617952)
+   end,
+})
+local Button5 = teleTab:CreateButton({
+   Name = "Phù Phép",
+   Callback = function()
+   for i = 1, 10, 1 do
+   wait()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594)
+   end
+   wait(2)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1865.24731, 7.47261429, -88.8948746, 0.368724018, -0.101646155, 0.92396462, 7.59493179e-09, 0.994003177, 0.109351151, -0.929538906, -0.040320389, 0.366512865)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-299.731659, -404.980988, 565.834229, -0.374547392, -0.185055688, 0.908553064, 1.55538658e-07, 0.97988075, 0.199583888, -0.927207768, 0.0747537687, -0.367011756)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-849.041382, -534.16687, 2229.06494, -0.0243465696, -0.347828388, 0.937242031, 2.17312618e-06, 0.937519908, 0.347931564, -0.999703586, 0.00847297721, -0.0228246395)
+   end,
+})
+local Button6 = teleTab:CreateButton({
+   Name = "Bóng Đêm",
+   Callback = function()
+   for i = 1, 10, 1 do
+   wait()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594)
+   end
+   wait(2)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27.1107693, 180.104324, 2488.22607, -0.878100336, 0.124982923, -0.461864799, -6.95453252e-07, 0.965281606, 0.261211365, 0.478476554, 0.229370102, -0.84761405)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(29.394453, 154.697128, 3502.30273, 0.804590464, 0.117720947, -0.582044661, -3.46173181e-07, 0.980153561, 0.198239639, 0.593830109, -0.159501523, 0.78862226)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(250.751862, -102.466629, 3402.61597, -0.982914448, 0.00880547706, -0.183852285, -9.95649643e-08, 0.998854995, 0.0478399955, 0.184063032, 0.0470226407, -0.981788993)
+   end,
+})
+local Button7 = teleTab:CreateButton({
+   Name = "Đen Thui",
+   Callback = function()
+   for i = 1, 10, 1 do
+   wait()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594)
+   end
+   wait(2)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27.1107693, 180.104324, 2488.22607, -0.878100336, 0.124982923, -0.461864799, -6.95453252e-07, 0.965281606, 0.261211365, 0.478476554, 0.229370102, -0.84761405)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1108.12244, 232.774445, 3539.23389, 0.587977409, 0.35832873, -0.725177944, -6.81058509e-07, 0.896524251, 0.442994684, 0.808877349, -0.260470361, 0.527136266)
+   end,
+})
+local Section1 = teleTab:CreateSection("Tarius")
+local Button1 = teleTab:CreateButton({
+   Name = "Hồ Crystal",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(-5516.27979, 42.4378242, -1655.94629, 0.78779757, -0.0898328349, 0.609348059, -1.34563033e-05, 0.989304483, 0.145865113, -0.615934253, -0.114920385, 0.779370487))
+   end
+   wait(2)
+   teleportCar(CFrame.new(-5519.27539, 20.8284779, -1883.38513, 0.876398683, 0.00387270399, -0.481570721, 3.81920427e-06, 0.999967635, 0.00804850738, 0.481586307, -0.00705554057, 0.876370251))
+   wait(0.5)
+   teleportCar(CFrame.new(-6617.30566, -468.15097, -1518.82776, -0.995751143, 0.0022036077, 0.0920586213, 1.9499991e-08, 0.999713659, -0.0239299405, -0.092084989, -0.0238282643, -0.995465994))
+   wait(0.5)
+   teleportCar(CFrame.new(-6610.78906, -569.006165, 724.824524, -0.999282837, -0.00117745064, 0.037847247, 2.07598685e-08, 0.999516428, 0.0310961045, -0.0378655568, 0.0310738049, -0.998799562))
+   wait(0.5)
+   teleportCar(CFrame.new(-7304.43164, -616.993774, 953.149292, -0.998999476, -0.00463578105, 0.0444815718, 1.97611278e-08, 0.994613111, 0.103657044, -0.0447224863, 0.103553332, -0.993617952))
+   end,
+})
+local Button2 = teleTab:CreateButton({
+   Name = "Phù Phép",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(1865.24731, 7.47261429, -88.8948746, 0.368724018, -0.101646155, 0.92396462, 7.59493179e-09, 0.994003177, 0.109351151, -0.929538906, -0.040320389, 0.366512865))
+   wait(0.5)
+   teleportCar(CFrame.new(-299.731659, -404.980988, 565.834229, -0.374547392, -0.185055688, 0.908553064, 1.55538658e-07, 0.97988075, 0.199583888, -0.927207768, 0.0747537687, -0.367011756))
+   wait(0.5)
+   teleportCar(CFrame.new(-849.041382, -534.16687, 2229.06494, -0.0243465696, -0.347828388, 0.937242031, 2.17312618e-06, 0.937519908, 0.347931564, -0.999703586, 0.00847297721, -0.0228246395))
+   end,
+})
+local Button3 = teleTab:CreateButton({
+   Name = "Bóng Đêm",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(-27.1107693, 180.104324, 2488.22607, -0.878100336, 0.124982923, -0.461864799, -6.95453252e-07, 0.965281606, 0.261211365, 0.478476554, 0.229370102, -0.84761405))
+   wait(0.5)
+   teleportCar(CFrame.new(29.394453, 154.697128, 3502.30273, 0.804590464, 0.117720947, -0.582044661, -3.46173181e-07, 0.980153561, 0.198239639, 0.593830109, -0.159501523, 0.78862226))
+   wait(0.5)
+   teleportCar(CFrame.new(250.751862, -102.466629, 3402.61597, -0.982914448, 0.00880547706, -0.183852285, -9.95649643e-08, 0.998854995, 0.0478399955, 0.184063032, 0.0470226407, -0.981788993))
+   end,
+})
+local Button4 = teleTab:CreateButton({
+   Name = "Đen Thui",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(-27.1107693, 180.104324, 2488.22607, -0.878100336, 0.124982923, -0.461864799, -6.95453252e-07, 0.965281606, 0.261211365, 0.478476554, 0.229370102, -0.84761405))
+   wait(0.5)
+   teleportCar(CFrame.new(1108.12244, 232.774445, 3539.23389, 0.587977409, 0.35832873, -0.725177944, -6.81058509e-07, 0.896524251, 0.442994684, 0.808877349, -0.260470361, 0.527136266))
+   end,
+})
+local cayTab = Window:CreateTab("Cày Tiền")
+local Section = cayTab:CreateSection("Nhớ Ngồi Xe Chở Gỗ")
+local Button1 = cayTab:CreateButton({
+   Name = "Nhà",
+   Callback = function()
+   local Car = workspace.Vehicles["Utilizer M1"]
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1551.74292, 39.596447, -587.532288, 0.498626143, 0.10473977, -0.860465884, 2.90420621e-06, 0.992672682, 0.120834261, 0.866817117, -0.0602536201, 0.494972259))
+   end
+   end,
+})
+local Button2 = cayTab:CreateButton({
+   Name = "Bán",
+   Callback = function()
+   local Car = workspace.Vehicles["Utilizer M1"]
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(939.050842, 38.4404182, -700.363708, 0.419345796, -0.0940414518, 0.902942598, 8.09352585e-08, 0.994620144, 0.103589624, -0.907826602, -0.0434397981, 0.41708976))
+   end,
+})
+local Button3 = cayTab:CreateButton({
+   Name = "Hồ Crystal",
+   Callback = function()
+   local Car = workspace.Vehicles["Utilizer M1"]
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(-5516.27979, 42.4378242, -1655.94629, 0.78779757, -0.0898328349, 0.609348059, -1.34563033e-05, 0.989304483, 0.145865113, -0.615934253, -0.114920385, 0.779370487))
+   end
+   wait(2)
+   teleportCar(CFrame.new(-5519.27539, 20.8284779, -1883.38513, 0.876398683, 0.00387270399, -0.481570721, 3.81920427e-06, 0.999967635, 0.00804850738, 0.481586307, -0.00705554057, 0.876370251))
+   wait(0.5)
+   teleportCar(CFrame.new(-6617.30566, -468.15097, -1518.82776, -0.995751143, 0.0022036077, 0.0920586213, 1.9499991e-08, 0.999713659, -0.0239299405, -0.092084989, -0.0238282643, -0.995465994))
+   wait(0.5)
+   teleportCar(CFrame.new(-6610.78906, -569.006165, 724.824524, -0.999282837, -0.00117745064, 0.037847247, 2.07598685e-08, 0.999516428, 0.0310961045, -0.0378655568, 0.0310738049, -0.998799562))
+   wait(0.5)
+   teleportCar(CFrame.new(-7304.43164, -616.993774, 953.149292, -0.998999476, -0.00463578105, 0.0444815718, 1.97611278e-08, 0.994613111, 0.103657044, -0.0447224863, 0.103553332, -0.993617952))
+   end,
+})
+local Button4 = cayTab:CreateButton({
+   Name = "Tìm Gỗ Vàng",
+   Callback = function()
+   local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+   rootPart.CFrame = workspace.WorldSpawn.Trees["Goldwood Tree"].Hittable.Part.CFrame
+   end,
+})
+local cloTab = Window:CreateTab("Cày Đá Mây")
+local Section = cloTab:CreateSection("Nhớ Ngồi Tarius")
+local Button1 = cloTab:CreateButton({
+   Name = "Nhà",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1551.74292, 39.596447, -587.532288, 0.498626143, 0.10473977, -0.860465884, 2.90420621e-06, 0.992672682, 0.120834261, 0.866817117, -0.0602536201, 0.494972259))
+   end
+   end,
+})
+local Button2 = cloTab:CreateButton({
+   Name = "Bán",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(939.050842, 38.4404182, -700.363708, 0.419345796, -0.0940414518, 0.902942598, 8.09352585e-08, 0.994620144, 0.103589624, -0.907826602, -0.0434397981, 0.41708976))
+   end,
+})
+local Button3 = cloTab:CreateButton({
+   Name = "Đá Mây",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(-5516.27979, 42.4378242, -1655.94629, 0.78779757, -0.0898328349, 0.609348059, -1.34563033e-05, 0.989304483, 0.145865113, -0.615934253, -0.114920385, 0.779370487))
+   end
+   wait(2)
+   teleportCar(CFrame.new(-7250.76416, 801.698547, -3253.07202, -0.994962096, 0.0222860407, -0.097743459, 1.14560532e-06, 0.974980772, 0.222289249, 0.100251943, 0.221169263, -0.970068932))
+   end,
+})
+local Button4 = cloTab:CreateButton({
+   Name = "Tìm Đá Mây",
+   Callback = function()
+   local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+   rootPart.CFrame = workspace.WorldSpawn.Ores.Cloudnite.Hittable.Union.CFrame
+   end,
+})
+local encTab = Window:CreateTab("Cày Đá Phép")
+local Section = encTab:CreateSection("Nhớ Ngồi Siêu Xe & Bấm Theo Thứ Tự")
+local Button = encTab:CreateButton({
+   Name = "Nhà",
+   Callback = function()
+   local Car = workspace.Vehicles.Trailblazer
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1551.74292, 39.596447, -587.532288, 0.498626143, 0.10473977, -0.860465884, 2.90420621e-06, 0.992672682, 0.120834261, 0.866817117, -0.0602536201, 0.494972259))
+   end
+   end,
+})
+local Button2 = teleTab:CreateButton({
+   Name = "Phù Phép",
+   Callback = function()
+   local Car = workspace.Vehicles.Tarius
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(1865.24731, 7.47261429, -88.8948746, 0.368724018, -0.101646155, 0.92396462, 7.59493179e-09, 0.994003177, 0.109351151, -0.929538906, -0.040320389, 0.366512865))
+   wait(0.7)
+   teleportCar(CFrame.new(-299.731659, -404.980988, 565.834229, -0.374547392, -0.185055688, 0.908553064, 1.55538658e-07, 0.97988075, 0.199583888, -0.927207768, 0.0747537687, -0.367011756))
+   wait(0.5)
+   teleportCar(CFrame.new(-849.041382, -534.16687, 2229.06494, -0.0243465696, -0.347828388, 0.937242031, 2.17312618e-06, 0.937519908, 0.347931564, -0.999703586, 0.00847297721, -0.0228246395))
+   wait(0.5)
+   teleportCar(CFrame.new(-1980.27832, -642.149414, 2274.29248, 0.377974689, 0.174962342, -0.909133255, 2.0593825e-06, 0.981980443, 0.188982606, 0.92581594, -0.071432516, 0.371163398))
+   end,
+})
+local Button2 = encTab:CreateButton({
+   Name = "Đá 1",
+   Callback = function()
+   local Car = workspace.Vehicles.Trailblazer
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   for i = 1, 10, 1 do
+   wait()
+   teleportCar(CFrame.new(1955.10107, 22.8422298, -47.6995659, 0.356703699, -0.115320347, 0.927072644, -2.08863739e-07, 0.992351949, 0.123440646, -0.934217572, -0.0440319292, 0.353975594))
+   end
+   wait(2)
+   teleportCar(CFrame.new(1865.24731, 7.47261429, -88.8948746, 0.368724018, -0.101646155, 0.92396462, 7.59493179e-09, 0.994003177, 0.109351151, -0.929538906, -0.040320389, 0.366512865))
+   wait(0.5)
+   teleportCar(CFrame.new(1118.55054, -252.9198, 41.9441757, -0.924281418, -0.00230779173, 0.381704807, 1.42315821e-06, 0.999981701, 0.00604934711, -0.381711781, 0.00559184235, -0.924264491))
+   end,
+})
+local Button3 = encTab:CreateButton({
+   Name = "Đá 2",
+   Callback = function()
+   local Car = workspace.Vehicles.Trailblazer
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+   teleportCar(CFrame.new(1002.75018, -194.411896, 462.951202, -0.954879165, -0.0347592309, 0.294953436, 2.18827336e-06, 0.99312675, 0.117043599, -0.296994507, 0.111763142, -0.948316038))
+   end,
+})
+local Button4 = encTab:CreateButton({
+   Name = "Đá 3",
+   Callback = function()
+   local Car = workspace.Vehicles.Trailblazer
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+teleportCar(CFrame.new(1147.1958, -250.544312, 972.395386, 0.413264394, -0.0149457082, 0.910488427, 3.42535941e-06, 0.999865353, 0.0164112784, -0.910611093, -0.00677907886, 0.413208783))
+   end,
+})
+local Button5 = encTab:CreateButton({
+   Name = "Đá 4",
+   Callback = function()
+   local Car = workspace.Vehicles.Trailblazer
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+teleportCar(CFrame.new(970.969543, -190.169373, 473.32428, 0.856584251, 0.197067723, -0.476893842, 1.57931834e-06, 0.924198985, 0.381911308, 0.516007185, -0.327139974, 0.791653991))
+   end,
+})
+local Button6 = encTab:CreateButton({
+   Name = "Đá 5",
+   Callback = function()
+   local Car = workspace.Vehicles.Trailblazer
+   function teleportCar(cframe)
+   Car:SetPrimaryPartCFrame(cframe)
+   end
+teleportCar(CFrame.new(690.243164, -247.029526, 117.335258, 0.631198764, -0.197224483, 0.750127077, 2.5313459e-06, 0.967131317, 0.254277408, -0.775621116, -0.16049768, 0.610452592))
+   end,
+})
+local tienTab = Window:CreateTab("Tiện Ích")
+local Section = tienTab:CreateSection("Đập Tường")
+local Button = tienTab:CreateButton({
+   Name = "Phá Tường",
+   Callback = function()
+   workspace.Map.Novabay.Terrain.Model:Destroy()
+   wait()
+   workspace.Map.Structures.Checkpoint.Gate.Gate:Destroy()
+   end,
+})
+local Section1 = tienTab:CreateSection("Độ Xe")
+local Slider = tienTab:CreateSlider({
+   Name = "Tarius",
+   Range = {30, 70},
+   Increment = 10,
+   Suffix = "Tốc Độ",
+   CurrentValue = 30,
+   Flag = "Slider1",
+   Callback = function(v)
+   workspace.Vehicles.Tarius.Configuration.Speed.Value = v
+   end,
+})
+local Slider1 = tienTab:CreateSlider({
+   Name = "Xe Gỗ",
+   Range = {30, 70},
+   Increment = 10,
+   Suffix = "Tốc Độ",
+   CurrentValue = 30,
+   Flag = "Slider2",
+   Callback = function(v)
+   workspace.Vehicles["Utilizer M1"].Configuration.Speed.Value = v
+   end,
+})
+local Section2 = tienTab:CreateSection("Siêu Nhân")
+local Slider = tienTab:CreateSlider({
+   Name = "Chạy",
+   Range = {30, 70},
+   Increment = 10,
+   Suffix = "Tốc Độ",
+   CurrentValue = 30,
+   Flag = "Slider1",
+   Callback = function(v)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+   end,
+})
+local Slider2 = tienTab:CreateSlider({
+   Name = "Nhảy",
+   Range = {30, 70},
+   Increment = 10,
+   Suffix = "Cao",
+   CurrentValue = 30,
+   Flag = "Slider2",
+   Callback = function(v)
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+   end,
+})
+Rayfield:LoadConfiguration()
