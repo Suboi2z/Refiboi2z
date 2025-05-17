@@ -114,6 +114,21 @@ local Button7 = teleTab:CreateButton({
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1108.12244, 232.774445, 3539.23389, 0.587977409, 0.35832873, -0.725177944, -6.81058509e-07, 0.896524251, 0.442994684, 0.808877349, -0.260470361, 0.527136266)
    end,
 })
+local Button8 = teleTab:CreateButton({
+   Name = "Dung Nham",
+   Callback = function()
+   for i = 1, 10, 1 do
+   wait()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6791.83789, 3.11682796, -3974.90405, -0.369716227, -0.0164391194, -0.928999305, 8.84544793e-09, 0.999843478, -0.0176927485, 0.92914474, -0.00654130429, -0.369658351)
+   end
+   wait(2)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7703.79395, -445.413574, -3358.22095, -0.998987973, -0.00704628695, 0.0444226265, 8.41677519e-08, 0.987652183, 0.156662598, -0.0449779965, 0.156504065, -0.986652672)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7229.66992, -571.47229, -2715.72949, -0.0533281006, 0.0485064723, -0.997398257, -4.73651385e-09, 0.99881953, 0.048575595, 0.998577058, 0.00259044906, -0.0532651469)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7196.61328, -573.568237, -2722.92407, -0.752108872, -5.42307319e-08, 0.659038901, 3.96484845e-09, 1, 8.68123706e-08, -0.659038901, 6.790534e-08, -0.752108872)
+   end,
+})
 local Section1 = teleTab:CreateSection("Tarius")
 local Button1 = teleTab:CreateButton({
    Name = "Hồ Crystal",
